@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Страничка об авторе</title>
+	<link rel="stylesheet" href="../style/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ШАПКА -->
+    <header>
+     <div class="dark">  
+
+  <!-- МЕНЮ --> 
+<nav>
+  <ul>
+    <li class="li"><a href="../index.html">Главная</a></li>
+    <li><a href="vladik.html">Владивосток</a></li>
+    <li><a href="doctoprim.html">Достопремичательности</a></li>
+    <li><a href="nature.html">Природа</a></li>
+    <li><a href="klimate.html">Климат</a></li>
+  </ul>
+ 
+</nav>
+<h1 class="glav-zag">Страничка об авторе</h1>
+<br>
+<p>Только сопки весною на плечи<br>
+Вновь накинут зелёную шаль,<br>
+Я приеду к тебе, Дальнереченск,<br>
+В голубую таёжную даль.<br>
+<br>
+Там, от шумных столиц отдалённый,<br>
+Ты стоишь, неприметный такой,<br>
+Как мальчишка в рубашке зелёной,<br>
+Подпоясанный синей рекой.<br>
+<br>
+Всей душою к тебе, Дальнереченск,<br>
+Прикипел я уже навсегда.<br>
+Мы с тобою друг другу навстречу<br>
+Тянем руки свои сквозь года.<br>
+<br>
+Вновь задуют упругие ветры,<br>
+Раскачают, как море, тайгу.<br>
+Исходил я свои километры,<br>
+Понял, жить без тебя не могу.<br>
+<br>
+МОЕМУ ДАЛЬНЕРЕЧЕНСКУ<br>
+Автор: Анатолий Енин<br><br>
+* * *
+
+</p>
+<br><br> 
+</div>
+
+ </header>
+
+    <!-- ЦЕНТР -->
+  
+    
+   <div class="promeg">
+      <h1>Основное, что нужно знать об авторе:</h1>
+    </div>
+    <main>
+    <div class="black">
+     <div class="ocnov-prim" id="text-change"><h2>Информация об авторе</h2><br><p>Меня зовут Катя. Я изучаю веб-дизайн первый год.<br>Это мой первый сайт и я очень старалась. Еще я занимаюсь фигурным катанием и английским. Еще я люблю вязать, рисовать и читать.<br> 
+      <br>
+      Этот сайт я решила сделать про Приморский край, потому что там живут мои родственники. Каждый год я езжу туда летом в гости к бабушке. Поэтому я хочу, чтобы об этом месте узнали как можно больше людей. Все, о чем я рассказываю на страничках сайта, я видела своими глазами. Я старалась рассказать о самых популярных объектах этого замечательного места.<br> 
+      <br> 
+      Еще у меня есть очень милый кот, который очень любит кушать и часто выпрашивает вкусняшки, смотря на всех молящими глазками. Еще он очень много играет.
+
+      <br>
+</p></div> 
+            <div class="galery">
+                <div class="picture">
+        <img class="galerey" src="../images/avtor.png" id="img">      <div class=botton>
+     <button id="mz"> </button>
+      <button id="a"></button>
+  </div>
+    </div>
+      <script>
+      let img = document.getElementById('img');
+    let a = document.getElementById('a');
+    let mz = document.getElementById('mz');
+    let count = 1;
+
+    let photos = [
+      '../images/avtor.png',
+      '../images/chel.png',
+      
+    ]
+
+    a.onclick = function() {
+        count--;
+        
+        if(count < 1) {
+            count = 2
+        }
+        console.log(count);
+        img.src = photos[count - 1];
+    }
+
+    mz.onclick = function() {
+        count++;
+           
+        if (count > 2) {
+          count = 1
+        }
+        console.log(count)
+        img.src = photos[count - 1];
+    }
+    
+
+</script> 
+
+</div>
+
+</div>
+    
+    </main> 
+   <!-- ПОДВАЛ -->
+    <footer><div class="inf">
+      <p>© Автор сайта: Шпаковская Е. А., 2026 год</p>
+<p>Руководитель проекта: Карпенко Дмитрий Витальевич</p></div>
+     <div class="logo">
+       <img src="../images/logoyip-new.png"> <!-- <img src="images/loo.png"> <img src="images/logoo.png"> -->
+     </div>
+     <div class="avtor"><a href="#">Cтраничка</a><p> с информацией об авторе.</p></div>
+    </footer>
+
+  </div>
+   
+</body>
+</html>
