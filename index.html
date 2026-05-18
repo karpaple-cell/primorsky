@@ -1,0 +1,136 @@
+<!DOCTYPE html>  
+<html lang="ru">  
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приморский край</title>
+  <link rel="stylesheet" href="style/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ШАПКА --> 
+    <header> 
+     
+<div class="dark">
+  <!-- МЕНЮ -->  
+<nav>
+  <ul>
+    <li class="li"><a href="#" class="active">Главная</a></li>
+    <li><a href="pages/vladik.html">Владивосток</a></li>
+    <li><a href="pages/doctoprim.html">Достопремичательности</a></li>
+    <li><a href="pages/nature.html">Природа</a></li>
+    <li><a href="pages/klimate.html">Климат</a></li>
+  </ul>
+ 
+</nav>
+<h1 class="glav-zag">ПРИМОРСКИЙ КРАЙ</h1>
+<br>
+<p>
+Дымчато-сиреневый закат<br>
+С голубыми сопками вокруг.<br>
+Словно в небо растворив врата,<br>
+«Як» наш набирает высоту.<br>
+ <br> 
+Вижу родину я с высоты небес:<br>
+Реки, Уссурийскую тайгу,<br>
+Полный тайн заветных чудный лес,<br>
+Падь тигровую, распадков крутизну.<br>
+ <br>
+Хочется крылатою рукой<br>
+Зачерпнуть живую красоту,<br>
+Унести в далёкий путь с собой,<br>
+Расстелить на Зейском берегу.<br>
+ <br>
+Чтобы в радости и грусти час<br>
+И Приморье в сердце было, рядом,<br>
+Расцветало в вёснах каждый раз,<br>
+Отзываясь дорогой наградой.<br>
+<br>
+Родному Приморью<br>
+Автор: Людмила Суслова-Беседина<br><br>
+* * *
+</p>
+</div>
+ </header>
+
+    <!-- ЦЕНТР -->
+    <div class="promeg">
+      <h1>Основное, что нужно знать о Приморском крае:</h1>
+    </div>
+    <main>
+   <div class="black">
+     <div class="ocnov-prim"><h1>ПРИМОРСКИЙ КРАЙ</h1><br><br><p>Приморский край России — это заповедная дикая тайга, бесконечное море с прозрачной водой и песчаные пляжи, живописные бухты и необитаемые острова, исчезающие виды фауны и реликтовая флора. Здесь тихие речки вдруг устремляются бурными водопадами с отвесных скал, равнины сменяются горами, а степи — девственными лесами. В озёрах можно поймать морскую рыбу, а в одном месте — увидеть сибирскую тайгу и экзотические растения.<br> 
+      <br>
+Большую часть региона заняли природные парки и национальные заповедники, а символом края стал уссурийский тигр — редкое животное из Красной книги.<br>
+<br>
+Приморский край расположен на юге Дальнего Востока. На севере он граничит с Хабаровской областью, на западе — с Китаем, на юго-западе — с Северной Кореей. Юг и восток региона — это побережье Японского моря, с мысами и островами, заливами и бухтами. Крупный залив — Петра Великого. Берега залива сильно изрезаны и образуют внутренние заливы: Амурский, Уссурийский, Посьета, Стрелок, Восток, Находка.<br>
+</p></div> 
+             <div class="galery">
+                <div class="picture">
+        <img class="galerey" src="images/glavgor.png" id="img">      <div class=botton>
+     <button id="mz"> </button>
+      <button id="a"></button>
+  </div>
+    </div>
+      
+
+</div>
+
+<script>
+      let img = document.getElementById('img');
+    let a = document.getElementById('a');
+    let mz = document.getElementById('mz');
+    let count = 1;
+
+    let photos = [
+      'images/glavgor.png',
+      'images/glu.png',
+      
+    ]
+
+    a.onclick = function() {
+        count--;
+        
+        if(count < 1) {
+            count = 2
+        }
+        console.log(count);
+        img.src = photos[count - 1];
+    }
+
+    mz.onclick = function() {
+        count++;
+           
+        if (count > 2) {
+          count = 1
+        }
+        console.log(count)
+        img.src = photos[count - 1];
+    }
+    
+
+</script> 
+   </div>
+ 
+   </div>
+
+
+
+    </main> 
+
+    <!-- ПОДВАЛ -->
+    <footer><div class="inf">
+      <p>© Автор сайта: Шпаковская Е. А., 2026 год</p>
+<p>Руководитель проекта: Карпенко Дмитрий Витальевич</p></div>
+     <div class="logo">
+       <img src="images/logoyip-new.png"> <!-- <img src="images/loo.png"> <img src="images/logoo.png"> -->
+     </div>
+     <div class="avtor"><a href="pages/avtor.html">Cтраничка</a><p> с информацией об авторе.</p></div>
+    </footer>
+
+  </div>
+   
+</body>
+</html>
+
+ 
