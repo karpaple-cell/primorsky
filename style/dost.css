@@ -1,0 +1,4 @@
+@media(max-width: 600px)
+{
+	.glav-zag{font-size: clamp(28px, 5vw, 48px);
+}

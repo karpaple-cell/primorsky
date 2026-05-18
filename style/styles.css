@@ -1,0 +1,324 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+} 
+nav{ 
+	
+}
+header{width: 100%;
+    min-height: 800px;
+	background-image: url(../images/glavnaya.png);
+	background-size: auto;}
+
+.dark{background-color: rgba(0, 0, 0, 0.7);
+position: absolute;
+width: 100%;
+min-height: 800px;  
+
+}
+
+.glav-zag{
+	font-size: 55px; 
+	color: white;
+	margin-top: 70px;
+	width: 100%;
+	text-align: center;
+ font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav li{
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	margin-top: 25px;
+	font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.li{display: inline-block;
+	color: white;
+	font-size: 25px;}
+	.active{
+ padding: 10px;
+ box-shadow: 0px 0px 4px white;
+ border-radius: 15px;
+	}
+
+nav a:hover{
+	border-bottom: solid 2px #c4c3c0;
+
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	box-sizing: border-box;
+	
+}
+ul{
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+header p{
+	color: white;
+	font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 30px;
+
+}
+main{ 
+	background-image: url(../images/byxta.jpg);
+	width: 100%;
+    min-height: 100vh;
+	background-size: cover;
+}
+.black{ display: flex;
+
+	background-color: rgba(0,0,0, 0.4);
+	
+width: 100%;
+/*height: 100%;*/
+}
+.promeg{
+	background-color: #e0e0e0;
+	box-sizing: border-box;
+	padding: 15px;
+	min-height: 70px;
+	width: 100%;
+	text-align: center;
+font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: black;}
+
+  .ocnov-prim{
+  	text-shadow: 0px 0px 5px black;
+  	padding:100px 25px ;
+	color: white;
+	font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 25px;
+  text-align:center;
+  width: 50%;
+  min-height: 100vh;
+ }
+.galery{
+ width: 50%;
+ min-height: 100vh;
+position: relative;
+display: flex;
+align-items: center;
+
+
+}
+.galerey{
+	/*opacity: 0.5;*/
+	width:90%;
+	position: relative;
+	margin-left: 5%;
+	/*margin-top: 243px;
+	*/
+
+}
+/*.galerye{
+	width: 76%;
+    position: absolute;
+    left: 11%;
+    top: 375px;*/
+
+
+
+
+footer p{
+	font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+
+header p{
+	font-size: clamp(15px, 2vw, 20px);
+	margin-top: 0px;}
+
+	.promeg{
+		margin: 0;
+	}
+#mz {
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/strelka.png);
+		background-size: cover;
+		background-color: transparent;
+    border: none;
+  
+    background-size: cover;
+    transform: rotate(180deg);
+    filter: invert(1);
+}
+#a{
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/strelka.png);
+		background-size: cover;
+		background-color: transparent;
+    border: none;
+    
+    background-size: cover;
+   
+    filter: invert(1);
+}
+
+.botton{
+	margin-left: 32px;
+width: 90%;
+height: 50px;
+display: flex;
+justify-content: space-around;
+}
+.picture{
+width: 90%;
+}
+
+footer{
+	min-height: 130px;
+background-color: #e0e0e0;
+	display: flex;
+	width: 100%;
+	 color: black;
+	 flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+	
+	
+}
+.avtor{
+font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+
+	width: 350px;
+
+
+	
+}
+.avtor a{ 
+     display: inline-block;
+	color: green;
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+.avtor a:hover{ 
+margin: 5px;
+	border-bottom: 2px solid green;
+	border-radius: 3px;
+}
+
+.inf{
+
+}
+
+.logo img{
+	border-radius: 30px;
+	width: 180px;
+	height: 90px;
+}
+
+  p{ font-size: clamp(23px, 2vw, 30px);
+  }
+  h3{
+  	font-size: clamp(24px, 4vw, 33px);
+  }
+  h2{
+  	font-size: clamp(26px, 6vw, 40px);
+  }
+  h1{
+  	font-size: clamp(28px, 8vw, 45px);
+  }
+@media(max-width: 800px)
+ {
+   /*.dark p*/
+  .glav-zag{font-size: clamp(38px, 5vw, 48px);}
+ footer{
+ 	padding: 8px;
+     min-height: 450px;
+ 		background-size: cover;
+ 		height: 250px;
+ 		flex-direction: column-reverse;
+ 	}
+ 	header p{
+ 		
+ 		margin-left: 0px;
+ 	}
+  footer p{
+
+  	margin: 15px;
+  	
+
+  }
+
+ 
+ main{ 
+    min-height: 100vh;}
+    .black{
+    	display: flex;
+	flex-direction: column-reverse;
+flex-wrap: nowrap;
+align-content: normal;
+justify-content: normal;
+align-items: normal
+    }
+    .ocnov-prim{
+    	min-height: 50vh;
+  width: 100%;
+ padding-top: 0px;
+ 
+}
+
+.galerey{
+	display: block;
+	margin: auto;
+}
+
+.galery{
+	min-height: 60vh;
+  padding-top: 0px;
+	margin: auto;
+width: 100%
+}
+ul{
+	padding: 0px;
+}
+.picture {
+    width: 100%;
+}
+}
+@media(max-width: 400px)
+ {
+ 	.galery{
+	min-height: 40vh;
+}
+}
